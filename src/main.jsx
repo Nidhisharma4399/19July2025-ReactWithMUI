@@ -2,12 +2,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-
-import Home from "./pages/Home.jsx";
-import Blogs from "./pages/Blogs.jsx";
-import Contact from "./pages/Contact.jsx";
-import Nopage from "./pages/Nopage.jsx";
-import Layout from "./pages/Layout.jsx";
+import Home from "./Pages/Home.jsx";
+import Blogs from "./Pages/Blogs.jsx";
+import Contact from "./Pages/Contact.jsx";
+import Nopage from "./Pages/Nopage.jsx";
+import Layout from "./Pages/Layout.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
